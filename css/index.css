@@ -226,7 +226,7 @@ section{
 .slideshow img{
   width: 980px;
   height: 350px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
 }
 
