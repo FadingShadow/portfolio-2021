@@ -9,6 +9,17 @@ let box = Math.min(height, width);
 box /= 30;
 height -= box + 50;
 width -= box + 50;
+
+window.addEventListener("resize", () => {
+  console.log("Hello");
+  height = home.clientHeight;
+  width = home.clientWidth;
+  box = Math.min(height, width);
+  box /= 30;
+  height -= box + 50;
+  width -= box + 50;
+});
+
 setInterval(function () {
   for (i = 0; i < 1; i++) {
     let x = 0;
