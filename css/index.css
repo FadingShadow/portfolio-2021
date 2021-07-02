@@ -341,31 +341,8 @@ section {
   color: #fff;
   margin-left: 15px;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #002ae6,
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #002ae6,
       0 0 40px #0f00e6, 0 0 50px #000fe6, 0 0 60px #1700e6, 0 0 70px #2300e6;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #684dff, 0 0 40px #684dff,
-      0 0 50px #684dff, 0 0 60px #594dff, 0 0 70px #504dff, 0 0 80px #4d59ff;
-  }
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #002ae6,
-      0 0 40px #0f00e6, 0 0 50px #000fe6, 0 0 60px #1700e6, 0 0 70px #2300e6;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #684dff, 0 0 40px #684dff,
-      0 0 50px #684dff, 0 0 60px #594dff, 0 0 70px #504dff, 0 0 80px #4d59ff;
-  }
 }
 
 @keyframes rotation {
@@ -465,7 +442,7 @@ section {
     align-items: flex-start;
     overflow: hidden;
     max-height: 0;
-    transition: 0.5s max-height;
+    transition: 0.3s max-height;
   }
 
   .navbar.open-navbar {
