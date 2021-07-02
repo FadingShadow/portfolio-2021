@@ -513,4 +513,38 @@ section {
 }
 
 @media screen and (max-width: 320px) {
+  .project-container {
+    width: 75vw;
+  }
+  .project {
+    width: 70vw;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 8px;
+  }
+
 }
