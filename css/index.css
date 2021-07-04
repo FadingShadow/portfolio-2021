@@ -248,6 +248,7 @@ section {
   display: flex;
   justify-content: space-between;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 70%;
 
 }
